@@ -1,0 +1,22 @@
+.marquee_area {
+    width: 500px;
+    border: 1px solid #ddd;
+    margin: 3vmin auto;
+    overflow: hidden;
+}
+
+.marquee_text {
+    width: 500px;
+    padding-left: 500px;
+    white-space: nowrap;
+    animation: marquee 5s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate(0%);
+    }
+    100% {
+        transform: translate(-100%);
+    }
+}

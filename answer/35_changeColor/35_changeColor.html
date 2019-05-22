@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>35.changeColor</title>
+    <style>
+        button {
+            width: 200px;
+            padding: 10px;
+            border: 3px solid #000;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        .bgColor {
+            background-color: #FFDF3F;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    </style>
+    <script>
+        function changeColor() {
+            let target = document.getElementById("index");
+            target.style.backgroundColor = bgColor();
+            target.style.fontSize= fontSize();
+        }
+        function bgColor() {
+            let bgColorList = ["#FA5D36", "#63B1FF", "#FFDF3F", "#58E4A8"];
+            let bgColorNum = Math.floor(Math.random() * 4);
+            return bgColorList[bgColorNum];
+        }
+        function fontSize() {
+            let fontSize = String(Math.floor(Math.random() * 100) + 10) + "px";
+            return fontSize;
+        }
+    </script>
+</head>
+<body id="index" class="bgColor">
+    <p>changeColor</p>
+    <button onclick="changeColor()">Click</button>
+</body>
+</html>

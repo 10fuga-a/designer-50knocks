@@ -1,0 +1,10 @@
+.unit_base {
+    width: 80vw;
+    background-color: #FA5D36;
+    color: #fff;
+    font-size: 5vmin;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}

@@ -151,10 +151,11 @@ CSSを使ってキャラクターを一人書いてください。![](https://i.
 
 26. ## keyframes
 適当な文字を左から右に無限にスライドするアニメーションをcssのkeyframesを用いて作成しなさい。
-(ニコニコ動画のコメントみたいなイメージ)
+![](https://i.imgur.com/ruKEwer.gif)
 
 27. ## unit
 画面サイズによってサイズが変わる文字、div要素を作成しなさい。
+![](https://i.imgur.com/qXIfdkI.gif)
 
 # JavaScript
 28. ## consoleLog
@@ -178,17 +179,21 @@ if (条件) {
 
 32. ## onClick
 背景色が変わるボタンを作成してください。
-(応用とかでボタンを押したらアニメーションが発火させる問題とか入れたほうが◎)
+![](https://i.imgur.com/Smuxsi8.gif)
 
 33. ## changeClass
 適当な文と背景色を作成した後、文字サイズ・背景色が変わるボタンを設置してください。
+![](https://i.imgur.com/qDbH1vZ.gif)
 
 34. ## JavaScript-総合問題① Fizz Buzz
 1 ~ 100の数値を順番に列挙し、列挙している数値が３で割り切れる場合は'fizz'を5で割り切れる場合は'buzz'を、15の倍数になるものは'fizzbuzz'をコンソール出力してください。
 hint:繰り返し処理（for）や演算について調べてみよう。
+![](https://i.imgur.com/60SJpmX.png)
+
 
 35. ## JavaScript-総合問題② changeColor
 背景色・適当な文字列を設置しボタンを押すたびに背景色、文字サイズが変わるボタンを作成しなさい。※関数を使用すること！
+![Uploading file..._6m6s0yn22]()
 
 # 総合問題
-準備中
+準備中!

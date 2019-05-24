@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    margin: 0 auto;
+    width: 750px;
+    height: 60px;
+    background-color: red;
+    list-style: none;
+}
+
+header nav ul {
+    margin-top: 45%;
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    width: 125px;
+    height: 60px;
+}
+
+a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.pinterest{
+    background-image: url("./img/アセット\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    background-color: #E60024;
+}
+
+.pinterest:hover{
+    background-color: black;
+}
+
+.facebook{
+    background-image: url("./img/アセット\ 2.svg");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: center;
+    background-color: #3B5998;
+}
+
+.facebook:hover{
+    background-color: black;
+}
+
+.twitter{
+    background-image: url("./img/アセット\ 3.svg");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    background-color: #00ADED;
+}
+
+.twitter:hover{
+    background-color: black;
+}
+
+.android{
+    background-image: url("./img/アセット\ 4.svg");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    background-color: #A0C538;
+}
+
+.android:hover{
+    background-color: black;
+}
+
+.google{
+    background-image: url("./img/アセット\ 5.svg");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    background-color:#EB4132
+}
+
+.google:hover{
+    background-color: black;
+}
+
+.evernote{
+    background-image: url("./img/アセット\ 6.svg");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    background-color: #01A512;
+}
+
+.evernote:hover{
+    background-color: black;
+}
+
+pinterest #E60024
+
+facebook #3B5998
+
+twitter #00ADED
+
+google #EB4132
+
+evernote #01A512
+
+android A0C538 

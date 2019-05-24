@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    color: white;
+    font-size: 20rem;
+}
+
+#contantA{
+    width: 100%;
+    height: 100vh;
+    background-color: #FA5D36;
+}
+
+#contantB{
+    width: 100%;
+    height: 100vh;
+    background-color: #63B1FF;
+}
+
+#contantC{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFDF3F;
+}

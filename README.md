@@ -1,4 +1,4 @@
-# Make IT for Designer - 50knocks
+﻿# Make IT for Designer - 50knocks
 Make IT デザイナー研修用プログラム
 ## 目標
 - HTML／CSS／JavaScriptの基礎の理解
@@ -81,7 +81,7 @@ Make IT ホームページに遷移するリンクを３つ表示してくださ
 色、種類は問いません。
 
 11. ## filter
-
+filterを
 
 12. ## shadow
 hover時box-shadow今風の影にハイライトするようにしてください。

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}    
+
+body{
+    background-color: #FA5D36
+}
+
+#container{
+    margin-top: 20%;
+}
+
+a{
+    font-size: 5rem;
+    margin: 5%;
+    text-align: center;
+    display: block;
+    color: black;
+}

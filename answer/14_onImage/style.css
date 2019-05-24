@@ -5,19 +5,19 @@
 }
 
 #container{
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     background-image: url("./asyuraering.jpg");
     background-repeat: no-repeat;
-    background-size: 500px 500px;
+    background-size: 600px 600px;
 }
 
 #container h3{
     display: block;
     text-align: center;
-    margin-top: -8%;
-    color: black;
-    font-size: 2rem;
+    margin-top: -10%;
+    color: red;
+    font-size: 3rem;
     font-family: ro-brush-std, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -26,4 +26,6 @@
 #container img{
     display: block;
     margin: 0 auto;
+    width: 400px;
+    height: 400px;
 }

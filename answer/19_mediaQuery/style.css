@@ -24,16 +24,16 @@
 }
 @media screen and (max-width: 480px){
     #mainbox{
-        height : 900px;
-        width : 600px;
+        height : 600px;
+        width : 400px;
     }
     
     #mainbox div{
         margin: 0 auto;
         margin-bottom: 5%;
-        height:300px;
-        width:300px;
-        line-height: 300px;
+        height:200px;
+        width:200px;
+        line-height: 200px;
         text-align: center;
         font-size: 150px;   
     } 

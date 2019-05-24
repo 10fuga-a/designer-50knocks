@@ -49,6 +49,7 @@ If we try,we can Make IT exciting.<br>
 「つくれる」を、つくる
 </p>
 ```
+![](https://i.imgur.com/6WIa9Z0.png)
 
 5. ## centerDiv
 300px四方のdivを画面の上部中央に表示してください。色は赤、画面幅が変わっても中心に移動するようにしてください。
@@ -61,6 +62,8 @@ display: inline;
 display: inline-block;
 display: block;
 ```
+![](https://i.imgur.com/CIOq4Jx.png)
+
 
 7. ## anchor
 Make IT ホームページに遷移するリンクを３つ表示してください。
@@ -68,24 +71,31 @@ Make IT ホームページに遷移するリンクを３つ表示してくださ
 １つは新しいタブで開くように
 また、aタグの色を (黒字) になるようにCSSを使って変更しなさい。
 下線をCSSプロパティを使って削除してください。
+![](https://i.imgur.com/tP2tphE.gif)
+
 
 8. ## anchor+
 上下左右画面一杯に広がる色が異なるdiv3つを作成しなさい。
 各div内に他色のdiv要素へ飛ぶリンクを設置しなさい。
+![](https://i.imgur.com/LEeFNaY.gif)
+
 
 9. ## objectFit
 以下の画像を`border-radius`で正円に丸め、潰れた画像を`object-fit`を使って正しく表示してください。
+![](https://i.imgur.com/pXRK0bl.jpg)
+![](https://i.imgur.com/Jojb2Ka.png)
 
 10. ## gradient
 4番で作成したcenterdivのカラーをCSSプロパティを使用しグラデーション色にしてください。
 色、種類は問いません。
+![](https://i.imgur.com/5ZFDnH7.gif)
 
 11. ## filter
-CSSfilterを使って任意の画像を加工してください。
-`grayscale`を使ったモノクロ画像、`sepia`を使ったセピア画像、`blur`を使ったぼかし画像を作成してください。
+CSSfilterを使って任意の画像を加工してください。 grayscaleを使ったモノクロ画像、sepiaを使ったセピア画像、blurを使ったぼかし画像を作成してください。
 
 12. ## shadow
 hover時box-shadow今風の影にハイライトするようにしてください。
+![](https://i.imgur.com/zu8gbSa.gif)
 
 13. ## nav
 横並びのナビゲーションバーを実装してください。
@@ -96,8 +106,11 @@ hover時box-shadow今風の影にハイライトするようにしてくださ�
 ![](https://i.imgur.com/1BPhRgX.png)
 
 ```
+![](https://i.imgur.com/tifeg6E.gif)
+
 14. ## onImage
-画面に画像を表示し、その画像の上にタイトルを表示してください。 画像のタイトルだけかっこいいフォントを使ってください。
+画面に画像を表示し、その画像の上にタイトルを表示してください。 画像のタイトルだけかっこいいフォントを使ってください。![](https://i.imgur.com/KD8NVbD.png)
+
 
 15. ## position
 スクロールしても動かないdivと、途中から途中まで固定されるdivを作ってください。
@@ -124,7 +137,8 @@ flexboxを使い、100px四方のdiv群を以下のように並べてくださ�
 ![](https://i.imgur.com/j7Tcq5n.png)
 
 19. ## mediaQuery
-11番で作成したflexboxのdiv群をスマホ使用時に縦一列に並ぶように改変しなさい。
+11番で作成したflexboxのdiv群をスマホ使用時に縦一列に並ぶように改変しなさい。![](https://i.imgur.com/JbWss8I.gif)
+
 
 20. ## grid
 Gridを使い、以下のようなレイアウトを作りなさい。文字・画像は任意とします。
@@ -132,7 +146,6 @@ Gridを使い、以下のようなレイアウトを作りなさい。文字・�
 
 21. ## position
 スクロールしても動かないdivと、途中から途中まで固定されるdivを作ってください。![](https://i.imgur.com/xaKAUgY.gif)
-![Uploading file..._ifsoimrx0]()
 
 
 22. ## drawing
@@ -140,14 +153,16 @@ CSSを使ってキャラクターを一人書いてください。![](https://i.
 
 
 23. ## boxSizing
-ファイル作成を二つ行いそれぞれ違ったbox-sizingを使用して違いを確認しなさい。 (hint:divを二つ作成 を記載する)
+ファイル作成を二つ行いそれぞれ違ったbox-sizingを使用して違いを確認しなさい。 (hint:divを二つ作成 を記載する)![](https://i.imgur.com/8HA8zUe.png)
+
 
 24. ## transform
 横に長い棒Divを二つ作り,CSSプロパティを使用してバッテンにしてください。
+![](https://i.imgur.com/XUmKKh3.png)
 
 25. ## transition
 100px四方のブロックを作成し、hover時に500x100ピクセルに変形するアニメーションをcss-transition を用いて作成しなさい。
-また、変形の際に色が変わるアニメーションも追加してください。
+また、変形の際に色が変わるアニメーションも追加してください。![](https://i.imgur.com/vFqwO80.gif)
 
 26. ## keyframes
 適当な文字を左から右に無限にスライドするアニメーションをcssのkeyframesを用いて作成しなさい。

@@ -188,12 +188,12 @@ if (条件) {
 34. ## JavaScript-総合問題① Fizz Buzz
 1 ~ 100の数値を順番に列挙し、列挙している数値が３で割り切れる場合は'fizz'を5で割り切れる場合は'buzz'を、15の倍数になるものは'fizzbuzz'をコンソール出力してください。
 hint:繰り返し処理（for）や演算について調べてみよう。
-![](https://i.imgur.com/60SJpmX.png)
+<img src="https://i.imgur.com/60SJpmX.png" width=300>
 
 
 35. ## JavaScript-総合問題② changeColor
 背景色・適当な文字列を設置しボタンを押すたびに背景色、文字サイズが変わるボタンを作成しなさい。※関数を使用すること！
-![Uploading file..._6m6s0yn22]()
+![](https://i.imgur.com/3PE3vi7.gif)
 
 # 総合問題
 準備中!

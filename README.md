@@ -91,7 +91,8 @@ Make IT ホームページに遷移するリンクを３つ表示してくださ
 ![](https://i.imgur.com/5ZFDnH7.gif)
 
 11. ## filter
-CSSfilterを使って任意の画像を加工してください。 grayscaleを使ったモノクロ画像、sepiaを使ったセピア画像、blurを使ったぼかし画像を作成してください。
+CSSfilterを使って任意の画像を加工してください。 grayscaleを使ったモノクロ画像、sepiaを使ったセピア画像、blurを使ったぼかし画像を作成してください。![](https://i.imgur.com/e8gE9MJ.png)
+
 
 12. ## shadow
 hover時box-shadow今風の影にハイライトするようにしてください。

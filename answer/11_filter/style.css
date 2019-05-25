@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+}
+
+img:nth-child(1){
+    filter: grayscale(100%);
+}
+
+img:nth-child(2){
+filter: sepia(100%);
+}
+
+img:nth-child(3){
+filter: blur(3px);
+}

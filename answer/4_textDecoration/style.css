@@ -24,6 +24,7 @@ body{
 }
 
 #container p{
+    margin-top: -5%;
     line-height: 4rem;
     letter-spacing: 0.36rem;
     font-size: 3rem;

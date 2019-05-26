@@ -339,6 +339,7 @@ align-items: center;
 </div>
 ```
 完成例
+
 <img src="https://i.imgur.com/I7Srzd0.jpg" width=700>
 
 CSS参考例（一部）
@@ -372,6 +373,7 @@ CSS参考例（一部）
 </div>
 ```
 完成例
+
 <img src="https://i.imgur.com/9eojT3W.jpg" width=700>
 
 CSS参考例（一部）
@@ -440,6 +442,7 @@ CSS参考例（一部）
 </div>
 ```
 完成例
+
 <img src="https://i.imgur.com/A3JpdxU.jpg" width=700>
 
 CSS参考例（一部）
@@ -455,6 +458,7 @@ CSS参考例（一部）
 41で作成したメニューリストを、完成例を参考にCSSで装飾してください。
 
 完成例
+
 <img src="https://i.imgur.com/tcYm8OP.jpg" width=700>
 
 CSS参考例（一部）
@@ -482,6 +486,7 @@ p.price {
 フォントの種類に指定はありません。
 
 完成例
+
 <img src="https://i.imgur.com/BDfgg3X.jpg" width=700>
 
 44. ## shopContainer
@@ -536,12 +541,14 @@ CSS参考例（一部）
 44でつくった`ShopContainer`にきれいにマスクがかかるようにサイズや形を調整し、中の要素をFlexBoxを用いて完成例のようにレイアウトしてください。
 
 完成例
+
 <img src="https://i.imgur.com/Jy52rua.jpg" width=700>
 
 46. ## createTable
 テーブルタグを、完成例を参考にCSSで装飾してください。
 
 完成例
+
 <img src="https://i.imgur.com/UhVEHBB.jpg" width=700>
 
 CSS参考例
@@ -571,6 +578,7 @@ table.shop_info_container td {
 </div>
 ```
 完成例
+
 <img src="https://i.imgur.com/FYMkTog.png" width=700>
 
 
@@ -608,6 +616,7 @@ table.shop_info_container td {
 </nav>
 ```
 完成例
+
 <img src="https://i.imgur.com/HdgcFaN.png" width=700>
 
 
@@ -617,5 +626,5 @@ table.shop_info_container td {
 - マウスを重ねた時の色： `#B29F9F`
 - 色の切り替わりをフェードで処理する
 
-## 完成例
+# 完成例
 <img src="answer/36-50_webSite/36-50_webSite.png" width=700>

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Nothing+You+Could+Do&display=swap');
+
+#index {
+    width: calc(100vw - 3rem);
+    height: calc(100vh - 130px);
+    margin: 110px auto 0;
+    border-radius: 1.5rem;
+    background: url(../images/main_image.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about {
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 330px 260px;
+    grid-template-columns: 1fr 355px;
+    padding: 1.5rem;
+}
+.about_title_container {
+    background: url(../images/about_image_1.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 1.5rem;
+    margin-right: 1.2rem;
+    padding: 1.5rem;
+    display: flex;
+    align-items: flex-end;
+    grid-row: 1 / 3;
+    grid-column: 1;
+}
+.about_text_container {
+    color: #fff;
+    font-size: 0.9rem;
+    background-color: #452D2D;
+    border-radius: 1.5rem;
+    margin-bottom: 1.2rem;
+    padding: 1.5rem;
+}
+.about_text_container h2 {
+    font-size: 1.7rem;
+    letter-spacing: 0.25rem;
+    line-height: 170%;
+    margin: 0.8rem 0 1.2rem;
+}
+.about_image_container {
+    background: url(../images/about_image_2.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 1.5rem;
+}
+
+#menu {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu_title {
+    display: block;
+    margin: 0 auto;
+}
+.menu_list_container {
+    width: 85vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    list-style: none;
+    margin: 2rem auto;
+}
+li.menu_list_item {
+    width: 25%;
+    margin: 1.2rem;
+}
+li.menu_list_item figure img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+li.menu_list_item h3 {
+    color: #452D2D;
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #B29F9F;
+}
+li.menu_list_item p {
+    font-size: 0.9rem;
+}
+p.price {
+    color: #452D2D;
+    text-align: right;
+    letter-spacing: 0.1rem;
+    padding: 1rem 0;
+}
+p.price span {
+    font-size: 2.2rem;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+#shop {
+    width: calc(100vw - 3rem);
+    height: calc(100vh - 130px);
+    border-radius: 1.5rem;
+    background: url(../images/shop_image.jpg) no-repeat center;
+    background-size: cover;
+    margin: 0 auto;
+}
+.shop_title {
+    display: block;
+    margin: 0 auto;
+}
+.shop_back_mask {
+    width: calc(100vw - 3rem);
+    height: calc(100vh - 130px);
+    border-radius: 1.5rem;
+    background: rgba( 0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+table.shop_info_container {
+    width: 45vw;
+    margin: 3rem auto;
+}
+table.shop_info_container th {
+    width: 12vw;
+    border-bottom: 1px solid #fff;
+    padding: 1rem;
+}
+table.shop_info_container td {
+    border-bottom: 1px solid rgba( 255, 255, 255, 0.5);
+    padding: 1rem;
+}
+
+#access {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+.access_title {
+    margin: 5rem;
+}
+.access_map {
+    margin-right: 1.5rem;
+    border: 5px solid #B29F9F;
+}

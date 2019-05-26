@@ -1,0 +1,26 @@
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic ProN",Helvetica,Arial,"ヒラギノ角ゴ ProN W3",Meiryo,メイリオ,sans-serif;
+    color: #2F2F2F;
+    line-height: 180%;
+}
+
+a {
+    color: #2F2F2F;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover {
+    color: #B29F9F;
+    transition: 0.3s;
+}

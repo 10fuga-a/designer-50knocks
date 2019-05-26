@@ -243,4 +243,46 @@ hint:繰り返し処理（for）や演算について調べてみよう。
 ![](https://i.imgur.com/3PE3vi7.gif)
 
 # 総合問題
-準備中!
+総合問題では架空のパンケーキ屋「PANCAKE 横浜のパンケーキ」のWebサイトの完成を目指します。
+
+### 注意点
+- 以下の問題は全て同ディレクトリ内・同HTML内に記述してください。
+- 画像素材は`36-50_images/`に用意しています。作成した回答用ディレクトリの中に`images/`を作成し、その中に画像素材を格納してください。
+- 最終的なディレクトリの構成は以下のようになります。
+```
+  root:.
+  ├─36-50_images //=> 36-50 画像素材
+  ├─answer //=> 回答例ディレクトリ
+  └─YamadaTaro
+    　└─36-50_webSite/
+          ├─css //=> CSSファイルを格納
+          ├─images //=> 36-50_imagesの画像素材を格納
+          └─36-50_webSite.html
+```
+
+## header
+以下の要素は`<header>~</header>`内に記述してください。
+
+36. ## headerContainer
+37. ## headerMenu
+38. ## headerLabel
+
+## main
+以下の要素は`<main>~</main>`内に記述してください。
+
+39. ## firstViewWrap
+40. ## gridBox
+41. ## position
+42. ## createSection
+43. ## webFont
+44. ## flexBox
+45. ## backgroundImageMask
+46. ## createTable
+47. ## accessMap
+
+## footer
+以下の要素は`<footer>~</footer>`内に記述してください。
+
+48. ## footerContainer
+49. ## footerContents
+50. ## copyRight

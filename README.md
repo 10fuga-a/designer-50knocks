@@ -328,6 +328,10 @@ align-items: center;
     内側の余白: 1rem;
 }
 ```
+完成例
+
+<img src="https://i.imgur.com/acHaeh0.png" width=700>
+
 
 38. ## headerFixed
 ヘッダー（`header`）が常に画面上部に固定されるように、`header`のCSSを追記してください。

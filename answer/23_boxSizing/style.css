@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    display: flex;
+}
 #contantA{
     width: 500px;
     height: 500px;

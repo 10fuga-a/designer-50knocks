@@ -69,15 +69,15 @@ display: block;
 Make IT ホームページに遷移するリンクを３つ表示してください。
 １つは同一タブ上で開くように
 １つは新しいタブで開くように
-また、aタグの色を (黒字) になるようにCSSを使って変更しなさい。
+また、aタグの色を (黒字) になるようにCSSを使って変更してください。
 下線をCSSプロパティを使って削除してください。
 
 <img src="https://i.imgur.com/tP2tphE.gif" width=700>
 
 
 8. ## anchor+
-上下左右画面一杯に広がる色が異なるdiv3つを作成しなさい。
-各div内に他色のdiv要素へ飛ぶリンクを設置しなさい。
+同一ページ上に上下左右画面一杯に広がる色が異なるブロックを3つ作成してください。
+各要素に別ブロックへのリンクを設置してください。
 
 <img src="https://i.imgur.com/LEeFNaY.gif" width=700>
 
@@ -95,7 +95,8 @@ Make IT ホームページに遷移するリンクを３つ表示してくださ
 ![](https://i.imgur.com/5ZFDnH7.gif)
 
 11. ## filter
-CSSfilterを使って任意の画像を加工してください。 grayscaleを使ったモノクロ画像、sepiaを使ったセピア画像、blurを使ったぼかし画像を作成してください。
+CSSfilterを使って任意の画像を加工してください。  
+grayscaleを使ったモノクロ画像、sepiaを使ったセピア画像、blurを使ったぼかし画像を作成してください。
 
 ![](https://i.imgur.com/e8gE9MJ.png)
 
@@ -107,7 +108,7 @@ hover時box-shadow今風の影にハイライトするようにしてくださ�
 
 13. ## nav
 横並びのナビゲーションバーを実装してください。
-
+下記条件を満たしていれば見た目は問いません。
 ```
 コンテンツは6つ
 マウスオーバーした際に色が変わること![](https://i.imgur.com/T40XPOF.png)
@@ -117,14 +118,15 @@ hover時box-shadow今風の影にハイライトするようにしてくださ�
 ![](https://i.imgur.com/tifeg6E.gif)
 
 14. ## onImage
-画面に画像を表示し、その画像の上にタイトルを表示してください。 画像のタイトルだけかっこいいフォントを使ってください。
+画面に画像を表示し、その画像の上にタイトルを表示してください。
+画像のタイトルだけかっこいいフォントを使ってください。
 
 ![](https://i.imgur.com/KD8NVbD.png)
 
 
 15. ## video
-画面いっぱいに広がる動画を配置してください。画面中央にタイトル文字を表示してください。
-動画は自動再生、ループ再生するように。
+画面いっぱいに広がる動画を配置してください。
+画面中央にタイトル文字を表示、動画は自動再生・ループ再生してください。
 
 ![](https://i.imgur.com/SWtCqU0.jpg)
 
@@ -143,28 +145,28 @@ hover時box-shadow今風の影にハイライトするようにしてくださ�
 ![](https://i.imgur.com/2po2YlA.png)
 
 17. ## float
-floatを使い、100px四方のdiv群を以下のように並べてください。
+floatを使い、正方形のブロック要素を以下のように並べてください。
 
 ![](https://i.imgur.com/Po8tWIG.png)
 
 18. ## flexbox
-flexboxを使い、100px四方のdiv群を以下のように並べてください。
+flexboxを使い、正方形のブロック要素を以下のように並べてください。
 
 ![](https://i.imgur.com/j7Tcq5n.png)
 
 19. ## mediaQuery
-11番で作成したflexboxのdiv群をスマホ使用時に縦一列に並ぶように改変しなさい。
+11番で作成したflexboxのdiv群をスマホ使用時に縦一列に並ぶようにしてください。
 
 ![](https://i.imgur.com/JbWss8I.gif)
 
 20. ## grid
-Gridを使い、以下のようなレイアウトを作りなさい。文字・画像は任意とします。
+Gridを使い、以下のようなレイアウトを作りなさい。文字・画像は問いません。
 
 
 ![](https://i.imgur.com/uoGJxHF.png)
 
 21. ## position
-スクロールしても動かないdivと、途中から途中まで固定されるdivを作ってください。
+画面上に固定されているブロック要素と、スクロールすることによってずれるブロック要素を作成してください。
 
 ![](https://i.imgur.com/xaKAUgY.gif)
 
@@ -175,28 +177,28 @@ CSSを使ってキャラクターを一人書いてください。
 
 
 23. ## boxSizing
-ファイル作成を二つ行いそれぞれ違ったbox-sizingを使用して違いを確認しなさい。 (hint:divを二つ作成 を記載する)
-<img src="https://i.imgur.com/8HA8zUe.png" width=400>
+cssの`box-sizing`プロパティを用いて違いを確認して下さい。
+![](https://i.imgur.com/9DwST2C.png)
 
 
 24. ## transform
-横に長い棒Divを二つ作り,CSSプロパティを使用してバッテンにしてください。
+ブロック要素を二つ作り、CSSプロパティを使用してバツ印にしてください。
 
 ![](https://i.imgur.com/XUmKKh3.png)
 
 25. ## transition
-100px四方のブロックを作成し、hover時に500x100ピクセルに変形するアニメーションをcss-transition を用いて作成しなさい。
+100px四方のブロックを作成し、hover時に500x100ピクセルに変形するアニメーションを`css-transition` を用いて作成してください。
 また、変形の際に色が変わるアニメーションも追加してください。
 
 ![](https://i.imgur.com/vFqwO80.gif)
 
 26. ## keyframes
-適当な文字を左から右に無限にスライドするアニメーションをcssのkeyframesを用いて作成しなさい。
+適当な文字を左から右に無限にスライドするアニメーションをcssのkeyframesを用いて作成してください。
 
 ![](https://i.imgur.com/ruKEwer.gif)
 
 27. ## unit
-画面サイズによってサイズが変わる文字、div要素を作成しなさい。
+画面サイズによってサイズが変わる文字、div要素を作成してください。
 
 ![](https://i.imgur.com/qXIfdkI.gif)
 
@@ -231,14 +233,16 @@ if (条件) {
 ![](https://i.imgur.com/qDbH1vZ.gif)
 
 34. ## JavaScript-総合問題① Fizz Buzz
-1 ~ 100の数値を順番に列挙し、列挙している数値が３で割り切れる場合は'fizz'を5で割り切れる場合は'buzz'を、15の倍数になるものは'fizzbuzz'をコンソール出力してください。
-hint:繰り返し処理（for）や演算について調べてみよう。
+1 ~ 100の数値を順番に列挙し、列挙している数値が３で割り切れる場合は`fizz`を。
+5で割り切れる場合は`buzz`を。
+15の倍数になるものは`fizzbuzz`をコンソール出力してください。
 
 <img src="https://i.imgur.com/60SJpmX.png" width=300>
 
 
 35. ## JavaScript-総合問題② changeColor
-背景色・適当な文字列を設置しボタンを押すたびに背景色、文字サイズが変わるボタンを作成しなさい。※関数を使用すること！
+適当な文字列と背景色を設置しボタンを押すたびに文字サイズ・背景色が変わるボタンを作成してください。
+※関数を使用してください。
 
 ![](https://i.imgur.com/3PE3vi7.gif)
 

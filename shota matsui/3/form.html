@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body> 
+    <div>
+        <spam>name:</spam>
+        <label><input id="" type="text" required="required" name="name" value="" placeholder="Yamada Taro"></label>
+    </div>
+    <div>
+        <spam>email：</spam>
+        <input type="email" id="email" name="email">
+    </div>
+    <div>
+        <label for="password">password：</label>
+        <input type="password" id="password" name="password">
+    </div>
+    <form method="get">
+        <spam>age:</spam>
+    <select name="age">
+    <script>
+    var i;
+    for(i=0; i<201; i++){
+    document.write('<option value="'+i+'">'+i+'</option>');
+    }
+    </script>
+    </form>
+    <form method="get">
+        <select name="sex"><br>
+        <label for="name">sex:</label>
+        <input type="radio" name="gender" value="male"/>Male
+        <input type="radio" name="gender" value="male"/>Female
+        </select><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

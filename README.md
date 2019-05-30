@@ -30,14 +30,12 @@ formタグを使って個人情報送信フォームを作ってください。
 名前: (type="text") 必須項目にすること
 Eメール: (type="email") 
 パスワード: (type="password")
-年齢: (selectタグとoptionタグ) 0~200歳まで選べること
 性別: (type="radio") labelタグも使用すること
 送信ボタン(type="submit")
 formタグの属性にmethod="get"を追加すること
 必須項目が入力されていない場合、入力を促すような仕組みにすること
 ```
-![](https://i.imgur.com/YnAWJY8.gif)
-
+![](https://i.imgur.com/6CoLxnQ.gif)
 
 # CSS
 4. ## textDecoration
@@ -232,7 +230,18 @@ if (条件) {
 
 ![](https://i.imgur.com/qDbH1vZ.gif)
 
-34. ## JavaScript-総合問題① Fizz Buzz
+34. ## for
+0~100の数値をコンソール出力してください。
+
+35. ## form2
+HTML 3.form で作成したファイルをコピーし、for文を使って以下の機能を追加してください。
+```
+年齢: (selectタグとoptionタグ) 0~200歳まで選べること
+```
+![](https://i.imgur.com/gwUIclP.gif)
+
+## JavaScript Option Question
+### JavaScript-総合問題① Fizz Buzz
 1 ~ 100の数値を順番に列挙し、列挙している数値が３で割り切れる場合は`fizz`を。
 5で割り切れる場合は`buzz`を。
 15の倍数になるものは`fizzbuzz`をコンソール出力してください。
@@ -240,7 +249,7 @@ if (条件) {
 <img src="https://i.imgur.com/60SJpmX.png" width=300>
 
 
-35. ## JavaScript-総合問題② changeColor
+### JavaScript-総合問題② changeColor
 適当な文字列と背景色を設置しボタンを押すたびに文字サイズ・背景色が変わるボタンを作成してください。
 ※関数を使用してください。
 

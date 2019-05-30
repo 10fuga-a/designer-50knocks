@@ -241,6 +241,7 @@ HTML 3.form で作成したファイルをコピーし、for文を使って以�
 ![](https://i.imgur.com/gwUIclP.gif)
 
 ## JavaScript Option Question
+JavaScriptの応用編です。回答は任意とします。
 ### JavaScript-総合問題① Fizz Buzz
 1 ~ 100の数値を順番に列挙し、列挙している数値が３で割り切れる場合は`fizz`を。
 5で割り切れる場合は`buzz`を。

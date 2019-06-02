@@ -13,44 +13,44 @@
     <form action="" method="get">
         <dl>
             <dt>
-                <span>name: </span>
-                <dd>
-                    <input id="name" name="name" type="text" required placeholder="Yamada Taro" />
-                </dd>
+                name:
             </dt>
+            <dd>
+                <input id="name" name="name" type="text" required placeholder="Yamada Taro" />
+            </dd>
             <dt>
-                <span>email: </span>
-                <dd>
-                    <input type="email" name="email" id="email" placeholder="example@mail.com">
-                </dd>
+                email:
             </dt>
+            <dd>
+                <input type="email" name="email" id="email" placeholder="example@mail.com">
+            </dd>
             <dt>
-                <span>password: </span>
-                <dd>
-                    <input id="password" name="password" type="password" placeholder="p@ssw0rd" />
-                </dd>
+                password:
             </dt>
+            <dd>
+                <input id="password" name="password" type="password" placeholder="p@ssw0rd" />
+            </dd>
             <dt>
-                <span>age: </span>
-                <dd>
-                    <select name="age" id="age">
-                    </select>
-                    <span>year</span>
-                </dd>
+                age:
             </dt>
+            <dd>
+                <select name="age" id="age">
+                </select>
+                year
+            </dd>
             <dt>
-                <span>sex: </span>
-                <dd>
-                    <label>
-                        <input type="radio" name="sex" id="male">
-                        <span>Male</span>
-                    </label>
-                    <label>
-                        <input type="radio" name="sex" id="female">
-                        <span>Female</span>
-                    </label>
-                </dd>
+                sex:
             </dt>
+            <dd>
+                <label>
+                    <input type="radio" name="sex" id="male">
+                    Male
+                </label>
+                <label>
+                    <input type="radio" name="sex" id="female">
+                    Female
+                </label>
+            </dd>
         </dl>
         <input type="submit" value="submit" />
     </form>
@@ -58,6 +58,7 @@
     <script>
         'use strict'
         createAge();
+
         function createAge() {
             let age = document.getElementById('age');
             for (let i = 0; i < 201; i++) {

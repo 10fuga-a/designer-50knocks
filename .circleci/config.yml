@@ -21,14 +21,14 @@ jobs:
           name:
             Test HTML
           command:
-            ./node_modules/.bin/htmllint answer/$USERNAME/HTML/*/*.html
+            ./node_modules/.bin/htmllint answer/$USERNAME/*/*.html
           when:
             always
       - run:
           name:
             Test CSS
           command:
-            ./node_modules/.bin/stylelint answer/$USERNAME/CSS/*/*.css
+            ./node_modules/.bin/stylelint answer/$USERNAME/*/*.css
 
           when:
             always
@@ -36,7 +36,7 @@ jobs:
           name:
             Test JS
           command:
-            node_modules/.bin/eslint -c .eslintrc.json --ext .html,.js answer/$USERNAME/JS/*
+            node_modules/.bin/eslint -c .eslintrc.json --ext .html,.js answer/$USERNAME/*/
           when:
             always
 

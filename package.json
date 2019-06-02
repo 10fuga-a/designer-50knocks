@@ -4,9 +4,9 @@
   "description": "Make IT デザイナー研修用プログラム",
   "main": "index.js",
   "scripts": {
-    "htmllint": "npx htmllint answer/**/HTML/*/*.html",
-    "stylelint": "npx stylelint answer/**/CSS/*/*.css",
-    "eslint": "npx eslint -c .eslintrc answer/**/JS/*.js"
+    "htmllint": "npx htmllint answer/**/*.html",
+    "stylelint": "npx stylelint answer/**/*.css",
+    "eslint": "npx eslint -c .eslintrc answer/**/*.js"
   },
   "repository": {
     "type": "git",

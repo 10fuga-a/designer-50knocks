@@ -1,0 +1,30 @@
+{
+  "name": "designer-50knocks",
+  "version": "1.0.0",
+  "description": "Make IT デザイナー研修用プログラム",
+  "main": "index.js",
+  "scripts": {
+    "htmllint": "npx htmllint answer/**/*.html",
+    "stylelint": "npx stylelint answer/**/*.css",
+    "eslint": "npx eslint -c .eslintrc answer/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ISC-MakeIT/designer-50knocks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ISC-MakeIT/designer-50knocks/issues"
+  },
+  "homepage": "https://github.com/ISC-MakeIT/designer-50knocks#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-html": "^5.0.5",
+    "eslint-plugin-import": "^2.17.3",
+    "htmllint-cli": "0.0.7",
+    "stylelint": "^10.0.1",
+    "stylelint-config-standard": "^18.3.0"
+  }
+}

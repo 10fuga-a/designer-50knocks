@@ -8,19 +8,19 @@
 </head>
 <body> 
     <div>
-        <spam>name:</spam>
+        <span>name:</span>
         <label><input id="" type="text" required="required" name="name" value="" placeholder="Yamada Taro"></label>
     </div>
     <div>
-        <spam>email：</spam>
-        <input type="email" id="email" name="email">
+        <span>email：</span>
+        <form><input type="email" id="email" name="email"></form>
     </div>
     <div>
         <label for="password">password：</label>
-        <input type="password" id="password" name="password">
+        <form><input type="password" id="password" name="password"></form>
     </div>
     <form method="get">
-        <spam>age:</spam>
+        <span>age:</span>
     <select name="age">
     <script>
     var i;
@@ -28,8 +28,6 @@
     document.write('<option value="'+i+'">'+i+'</option>');
     }
     </script>
-    </form>
-    <form method="get">
         <select name="sex"><br>
         <label for="name">sex:</label>
         <input type="radio" name="gender" value="male"/>Male

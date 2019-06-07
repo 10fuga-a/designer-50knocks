@@ -1,0 +1,29 @@
+body{
+    background:linear-gradient(90deg,#FA5D36 0%,#FA5D36 50%,#63B1FF 50%,#63B1FF 100%)
+}
+
+h1,p{
+    text-align: center;
+    color: white  
+}
+h1{
+    line-height: 92px;
+    font-size: 178px;
+    letter-spacing: 11px;
+}
+p{
+    font-size: 31px;
+    letter-spacing: 8px;
+}
+.parent{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    align-items: center;
+    justify-content: center;
+}

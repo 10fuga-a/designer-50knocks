@@ -4,7 +4,7 @@ Make IT デザイナー研修用プログラム
 - HTML／CSS／JavaScriptの基礎の理解
 - 完成見本（カンプ）を元に適切なコーディングができる
 
-[※解答手順はこちらを参照](./answer/回答手順.md)  
+[※解答手順はこちらを参照](answer/example/回答手順.md)  
 # HTML
 1. ## helloTable
 3 x 3の表を画面に表示してください。
@@ -645,4 +645,4 @@ table.shop_info_container td {
 - 色の切り替わりをフェードで処理する
 
 # 完成例
-<img src="answer/36-50_webSite/36-50_webSite.png" width=700>
+<img src="answer/example/36-50_webSite/36-50_webSite.png" width=700>

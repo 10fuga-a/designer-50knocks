@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <form id="entryForm" action="#" method="get">
+    <dl>
+      <dt><label for="fullName">name:</label></dt>
+      <dd><input type="text" name="fullName" id="fullName" placeholder="Yamada Taro" required></dd>
+      <dt><label for="email">e-mail:</label></dt>
+      <dd><input type="email" name="email" id="email" placeholder="abc@xyz.com"></dd>
+      <dt><label for="password">password:</label></dt>
+      <dd><input type="password" name="password" id="password" placeholder="p@ssw0rd"></dd>
+      <dt>sex:</dt>
+      <dd>
+        <input type="radio" name="sex" id="sex1" value="male" checked>
+        <label for="sex1">Male</label>
+        <input type="radio" name="sex" id="sex2" value="female">
+        <label for="sex2">Female</label>
+      </dd>
+      <div class="btn">
+        <input type="submit" value="送信">
+      </div>
+    </dl>
+  </form>
+</body>
+</html>

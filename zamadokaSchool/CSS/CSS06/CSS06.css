@@ -1,0 +1,29 @@
+.inline {
+    display: inline;
+    background-color: #d6d600;
+    color: white;
+    margin: 20px;
+    padding: 40px;
+}
+
+.block {
+    display: block;
+    background-color: orange;
+    color: white;
+    margin: 20px;
+    padding: 40px;
+    width: 320px;
+    height: 160px;
+    text-align: center;
+}
+
+.inline-block{
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    margin: 20px;
+    padding: 40px;
+    width: 320px;
+    height: 160px;
+    text-align: center;
+}

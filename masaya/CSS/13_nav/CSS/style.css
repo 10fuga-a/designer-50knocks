@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-color: rgb(160, 243, 160);
+}
+
+li {
+  width: 80px;
+  height: 50px;
+}
+
+#fb_messenger {
+  background-image: url(../IMG/fb_messenger.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  float: left;
+}
+
+#feedly {
+  background-image: url(../IMG/feedly.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  float: left;
+}
+
+#pinterest {
+  background-image: url(../IMG/pinterest.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  float: left;
+}
+
+#twitter {
+  background-image: url(../IMG/twitter.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  float: left;
+}
+
+#youtube {
+  background-image: url(../IMG/youtube.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  float: left;
+}
+
+#facebook {
+  background-image: url(../IMG/facebook.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  float: left;
+}
+
+/*マウスを上に乗せた時
+---------------------*/
+
+#twitter:hover {
+  background-image:none;
+  background-image: url(../IMG/twitter2.png);
+  background-size: 48px 48px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+}
+
+#feedly:hover {
+  background-image: none;
+  background-image: url(../IMG/feedly2.png);
+  background-size: 48px 48px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+}
+
+#fb_messenger:hover {
+  background-image: none;
+  background-image: url(../IMG/fb_messenger2.png);
+  background-size: 48px 48px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+}
+
+#pinterest:hover {
+  background-image: none;
+  background-image: url(../IMG/pinterest2.png);
+  background-size: 48px 48px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+}
+
+#youtube:hover {
+  background-image: none;
+  background-image: url(../IMG/youtube2.png);
+  background-size: 48px 48px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+}
+
+#facebook:hover {
+  background-image: none;
+  background-image: url(../IMG/facebook2.png);
+  background-size: 48px 48px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+}

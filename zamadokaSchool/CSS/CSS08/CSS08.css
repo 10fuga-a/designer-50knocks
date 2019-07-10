@@ -1,7 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     box-sizing: none;
+=======
+    box-sizing: border-box;
+}
+body {
+    /* overflow-x: hidden; */
+>>>>>>> 6326da275123a255e90d8f6454b3bd049f1da95e
 }
 
 

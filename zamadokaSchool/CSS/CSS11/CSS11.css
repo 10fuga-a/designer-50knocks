@@ -1,0 +1,16 @@
+img {
+    width: 500px;
+    object-fit: contain;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.sepia {
+    filter: sepia(100%);
+}
+
+.blur {
+    filter: blur(3px);
+}

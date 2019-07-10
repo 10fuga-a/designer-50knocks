@@ -1,0 +1,19 @@
+.rodeo {
+    position: relative;
+}
+
+.rodeo video {
+    width: 100%;
+    height: 100%;
+}
+
+.rodeo p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    margin: auto;
+    font-size: 10em;
+    color: white;
+    font-family: 'Arial Black';
+}

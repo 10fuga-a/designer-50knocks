@@ -1,0 +1,17 @@
+*{
+    background-color: aquamarine;
+}
+
+ul {
+    list-style: none;
+}
+
+.new:after {
+    content: "NEW!";
+    background: orange;
+    color: white;
+    margin: 0 0.6em;
+    padding: 0.2em;
+    font-size: 0.7em;
+    border-radius: 0.2em;
+}

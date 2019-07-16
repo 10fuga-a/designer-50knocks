@@ -1,0 +1,10 @@
+.unit {
+    background-color: orangered;
+    width: 40vw;
+    height: 30vh;
+    font-size: 5vh;
+    text-align: center;
+    line-height: 30vh;
+    color: white;
+    font-weight: bold;
+}

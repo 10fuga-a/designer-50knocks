@@ -1,0 +1,19 @@
+* {
+    background-color: cornflowerblue;
+}
+
+.item {
+    position: absolute;
+    background-color: black;
+    width: 10px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.item1 {
+    transform: rotate(45deg);
+}
+
+.item2 {
+    transform: rotate(-45deg);
+}

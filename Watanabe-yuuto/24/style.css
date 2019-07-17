@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #88aaff;
+}
+
+.block1{
+
+    width: 20px;
+    height: 200px;
+    background-color: black;
+    margin-left: 85px;
+    transform:rotate(45deg);
+    position: absolute;
+    left: 0;
+}
+.block2{
+    width: 20px;
+    height: 200px;
+    background-color: black;
+    margin-left: 85px;
+    transform:rotate(-45deg);
+    position: absolute;
+    left: 0;
+    top: 100;
+}

@@ -1,0 +1,22 @@
+.BOX {
+    width: 500px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.TEXT {
+    width: 300px;
+    padding: 300px;
+    white-space: nowrap;
+    animation: marquee 3s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate(0%);
+    }
+    100% {
+        transform: translate(-100%);
+    }
+}

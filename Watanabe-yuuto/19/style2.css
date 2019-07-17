@@ -1,0 +1,46 @@
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    .BoxGroup {
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+
+        .box1,
+        .box2,
+        .box3,
+        .box4,
+        .box5,
+        .box6 {
+            width: 200px;
+            height: 200px;
+        }
+
+        .box1 {
+            background-color: #ff4444;
+        }
+
+        .box2 {
+            background-color: #33ff4e;
+        }
+
+        .box3 {
+            background-color: #4444ff;
+        }
+
+        .box4 {
+            background-color: #ffff44;
+        }
+
+        .box5 {
+            background-color: #ff44ff;
+        }
+
+        .box6 {
+            background-color: #44ffff;
+        }

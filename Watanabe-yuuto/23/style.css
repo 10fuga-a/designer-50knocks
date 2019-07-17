@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#BOX1{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    box-sizing: content-box;
+    margin: 50px;
+    border: 10px black solid;
+}
+
+#BOX2{
+    width: 200px;
+    height: 200px;
+    background-color: magenta;
+    box-sizing: border-box;
+    border: 10px black solid;
+    margin: 50px;
+
+}

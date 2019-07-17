@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.A{
+    position: fixed;
+    width: 25vw;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.B{
+    width : 75vw;
+    height : 100vh;
+    background-color: blue;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 25vw;
+}
+.CandD{
+    display: flex;
+    margin-left : 25vw;
+}
+.C{
+    position: sticky;
+    width : 25vw;
+    height : 100vh;
+    background-color: crimson;
+    font-size: 50px;
+    text-align: center;
+    top : 0;
+}
+
+.D{
+    width : 50vw;
+    height: 200vh;
+    background-color: cornflowerblue;
+    font-size: 50px;
+    text-align: center;
+}
+
+.E{
+    width : 75vw;
+    height : 100vh;
+    margin-left: 25vw;
+    background-color: yellow;
+    font-size: 50px;
+    text-align: center;
+}

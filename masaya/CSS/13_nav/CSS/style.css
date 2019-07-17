@@ -14,7 +14,7 @@ li {
   height: 50px;
 }
 
-#fb_messenger {
+.fb_messenger {
   background-image: url(../IMG/fb_messenger.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -22,7 +22,7 @@ li {
   float: left;
 }
 
-#feedly {
+.feedly {
   background-image: url(../IMG/feedly.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -30,7 +30,7 @@ li {
   float: left;
 }
 
-#pinterest {
+.pinterest {
   background-image: url(../IMG/pinterest.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -38,7 +38,7 @@ li {
   float: left;
 }
 
-#twitter {
+.twitter {
   background-image: url(../IMG/twitter.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -46,7 +46,7 @@ li {
   float: left;
 }
 
-#youtube {
+.youtube {
   background-image: url(../IMG/youtube.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -54,7 +54,7 @@ li {
   float: left;
 }
 
-#facebook {
+.facebook {
   background-image: url(../IMG/facebook.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -65,7 +65,7 @@ li {
 /*マウスを上に乗せた時
 ---------------------*/
 
-#twitter:hover {
+.twitter:hover {
   background-image:none;
   background-image: url(../IMG/twitter2.png);
   background-size: 48px 48px;
@@ -74,7 +74,7 @@ li {
   background-color: white;
 }
 
-#feedly:hover {
+.feedly:hover {
   background-image: none;
   background-image: url(../IMG/feedly2.png);
   background-size: 48px 48px;
@@ -83,7 +83,7 @@ li {
   background-color: white;
 }
 
-#fb_messenger:hover {
+.fb_messenger:hover {
   background-image: none;
   background-image: url(../IMG/fb_messenger2.png);
   background-size: 48px 48px;
@@ -92,7 +92,7 @@ li {
   background-color: white;
 }
 
-#pinterest:hover {
+.pinterest:hover {
   background-image: none;
   background-image: url(../IMG/pinterest2.png);
   background-size: 48px 48px;
@@ -101,7 +101,7 @@ li {
   background-color: white;
 }
 
-#youtube:hover {
+.youtube:hover {
   background-image: none;
   background-image: url(../IMG/youtube2.png);
   background-size: 48px 48px;
@@ -110,7 +110,7 @@ li {
   background-color: white;
 }
 
-#facebook:hover {
+.facebook:hover {
   background-image: none;
   background-image: url(../IMG/facebook2.png);
   background-size: 48px 48px;

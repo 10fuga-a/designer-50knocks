@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  text-decoration: none;
 }
 
 body {
@@ -16,5 +15,6 @@ div#box{
 
 a {
   font-size: 100px;
+  text-decoration: none;
   color: black;
 }

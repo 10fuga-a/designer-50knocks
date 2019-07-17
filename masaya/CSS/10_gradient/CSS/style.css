@@ -9,5 +9,5 @@
   height: 300px;
   text-align: center;
   margin: auto;
-  background: linear-gradient(to bottom, rgb(247, 170, 28), rgb(236, 236, 122));
+  background: linear-gradient(rgb(247, 170, 28), rgb(236, 236, 122));
 }

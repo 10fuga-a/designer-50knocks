@@ -21,26 +21,31 @@ div {
   width: 70vw;
   height: 100vh;
   background-color: rgb(243, 243, 135);
-  float: right;
+  margin-left: 30vw;
+}
+
+#boxCD {
+  display: flex;
+  margin-left: 30vw;
 }
 
 #boxC {
+  position: sticky;
   width: 35vw;
   height: 100vh;
   background-color: rgb(245, 118, 118);
-  clear: right;
-  float: right;
+  top: 0;
 }
+
 
 #boxD {
   width: 35vw;
-  height: 100vh;
+  height: 200vh;
   background-color: rgb(98, 235, 98);
-  float: right;
 }
 #boxE {
   width: 70vw;
   height: 100vh;
   background-color: rgb(230, 215, 11);
-  float: right;
+  margin-left: 30vw;
 }

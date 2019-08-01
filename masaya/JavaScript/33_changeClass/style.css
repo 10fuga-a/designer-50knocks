@@ -1,9 +1,18 @@
-body {
+body.beforeBody {
   background-color: #53e40f;
 }
 
-p {
+body.afterBody {
+  background-color: #4dbcf0;
+}
+
+p.beforeClass {
   font-size: 24px;
+  font-weight: bold;
+}
+
+p.afterClass {
+  font-size: 50px;
   font-weight: bold;
 }
 

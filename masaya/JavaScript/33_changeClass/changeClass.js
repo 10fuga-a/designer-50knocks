@@ -1,5 +1,6 @@
 function changeClass() {
-  document.body.style.backgroundColor = 'gray';
-  let elem = document.querySelector('p');
-  elem.style.fontSize = '16px';
+  let newClass = document.getElementById("beforeClass");
+  newClass.className = "afterClass";
+  let newBody = document.getElementById("beforeBody");
+  newBody.className = "afterBody";
 }

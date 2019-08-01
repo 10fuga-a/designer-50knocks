@@ -1,6 +1,7 @@
 // function
 function result() {
-  let age = 18;
+  let txt = prompt('あなたの年齢は？');
+  let age = parseInt(txt);
   if (age < 18) {
     console.log('君に言うことはないよ');
   } else {

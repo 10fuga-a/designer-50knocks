@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#monochrome {
+  display: inline-block;
+  filter: grayscale(100%);
+}
+
+#sepia {
+  display: inline-block;
+  filter: sepia(100%);
+}
+
+#blur {
+  display: inline-block;
+  filter: blur(2px);
+}

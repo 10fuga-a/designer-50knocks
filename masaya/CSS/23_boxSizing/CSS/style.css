@@ -1,0 +1,22 @@
+div {
+  text-align: center;
+}
+
+#boxA {
+  width: 400px;
+  height: 400px;
+  background-color: yellow;
+  border: blue 20px solid;
+  margin: 40px;
+  float: left;
+}
+
+#boxB {
+  width: 400px;
+  height: 400px;
+  background-color: yellow;
+  border: blue 20px solid;
+  box-sizing: border-box;
+  margin: 40px;
+  float: left;
+}

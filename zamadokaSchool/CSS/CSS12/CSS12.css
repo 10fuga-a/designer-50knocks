@@ -1,0 +1,15 @@
+* {
+    background-color: lightblue;
+}
+
+.square {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    margin: 50px auto;
+    box-shadow: 0px 1px 1px 1px gray;
+}
+
+.square:hover {
+    box-shadow: 0px 2px 7px 0px gray;
+}

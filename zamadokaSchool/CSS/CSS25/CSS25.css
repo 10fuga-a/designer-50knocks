@@ -1,0 +1,11 @@
+.transition {
+    background-color: #204495;
+    width: 100px;
+    height: 100px;
+    transition-duration: 2s;
+}
+
+.transition:hover {
+    background-color: #FFC93C;
+    width: 500px;
+}

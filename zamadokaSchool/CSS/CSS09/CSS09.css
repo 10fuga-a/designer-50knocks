@@ -1,0 +1,11 @@
+* {
+    background-color: orangered;
+}
+
+img {
+    width: 622px;
+    height: 622px;
+    border-radius: 50%;
+    object-fit: none;
+    margin: 50px;
+}

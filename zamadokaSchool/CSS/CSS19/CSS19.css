@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    font-size: 6em;
+}
+
+.square1 {
+    background-color: red;
+    order: 3;
+}
+
+.square2 {
+    background-color: lime;
+    order: 4;
+}
+
+.square3 {
+    background-color: blue;
+    order: 1;
+}
+
+.square4 {
+    background-color: yellow;
+    order: 2;
+}
+
+.square5 {
+    background-color: magenta;
+    order: -1;
+}
+
+.square6 {
+    background-color: cyan;
+    order: 0;
+}
+
+@media(max-width: 670px){
+    .container {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .square1 {
+        order: -1;
+    }
+
+    .square2 {
+        order: 0;
+    }
+
+    .square3 {
+        order: 1;
+    }
+
+    .square4 {
+        order: 2;
+    }
+
+    .square5 {
+        order: 3;
+    }
+
+    .square6 {
+        order: 4;
+    }
+}

@@ -1,0 +1,33 @@
+div {
+    width: 200px;
+    height: 200px;
+    float: left;
+    text-align: center;
+    font-size: 6em;
+}
+
+.square1 {
+    background-color: red;
+}
+
+.square2 {
+    background-color: lime;
+}
+
+.square3 {
+    background-color: blue;
+    clear: left;
+}
+
+.square4 {
+    background-color: yellow;
+}
+
+.square5 {
+    background-color: magenta;
+    clear: left;
+}
+
+.square6 {
+    background-color: cyan;
+}

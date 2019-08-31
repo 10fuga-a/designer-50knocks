@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+<<<<<<< HEAD
+    box-sizing: none;
+=======
+    box-sizing: border-box;
+}
+body {
+    /* overflow-x: hidden; */
+>>>>>>> 6326da275123a255e90d8f6454b3bd049f1da95e
+}
+
+
+.contant {
+    width: 100%;
+    height: 100vh;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 250px;
+}
+
+#a {
+    background-color: orangered;
+}
+
+#b {
+    background-color: skyblue;
+}
+
+#c {
+    background-color: gold;
+}

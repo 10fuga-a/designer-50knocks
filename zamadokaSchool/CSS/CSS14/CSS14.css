@@ -1,0 +1,14 @@
+.greeting {
+    position: relative;
+}
+
+.greeting p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 0.5em;
+    color: white;
+    font-family: 'Yu Mincho';
+    font-weight: bold;
+    font-size: 10em;
+}
